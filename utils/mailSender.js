@@ -1,5 +1,5 @@
 const nodemailer = require("nodemailer")
-
+//sending mail for signUp
 const mailSender = async (email, title, body) => {
     try {
         let transporter = nodemailer.createTransport({
